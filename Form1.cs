@@ -2,6 +2,7 @@ namespace PasswordResetBruteForce
 {
     public partial class Form1 : Form
     {
+        private PasswordGenerator generator = new PasswordGenerator();
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace PasswordResetBruteForce
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-
+            txtPassword.Text = generator.GeneratePassword();
         }
 
         private void btnStart_Click(object sender, EventArgs e)

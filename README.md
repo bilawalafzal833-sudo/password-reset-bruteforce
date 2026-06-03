@@ -32,3 +32,10 @@ Create a WinForms application for password reset using brute force attack and mu
 - Designed GUI
 - Created class structure
 - Created UML diagram
+
+### Version 2
+- Implemented PasswordGenerator class
+- Added random password generation
+- Password length set to 4–6 characters
+- Connected Generate Password button
+- Password displayed in GUI
