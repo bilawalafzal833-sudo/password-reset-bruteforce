@@ -30,11 +30,15 @@ namespace PasswordResetBruteForce
             txtPassword.Text = password;
 
             currentHash = hasher.HashPassword(password);
-            MessageBox.Show(currentHash);
+            
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            BruteForceGenerator generator =
+    new BruteForceGenerator();
+
+            MessageBox.Show(generator.Characters);
 
         }
 

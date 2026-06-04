@@ -39,3 +39,11 @@ Create a WinForms application for password reset using brute force attack and mu
 - Password length set to 4–6 characters
 - Connected Generate Password button
 - Password displayed in GUI
+
+### Version 3
+
+- Implemented PasswordHasher class
+- Added SHA256 hashing
+- Added constant salt
+- Implemented PasswordValidator class
+- Password hash generated after password creation
