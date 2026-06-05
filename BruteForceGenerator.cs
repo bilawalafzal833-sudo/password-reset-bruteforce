@@ -3,7 +3,7 @@
     public class BruteForceGenerator
     {
         private string characters =
-            "abcdefghijklmnopqrstuvwxyz0123456789";
+            "abc123";
 
         public string Characters
         {

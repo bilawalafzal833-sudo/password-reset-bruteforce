@@ -37,8 +37,8 @@
             progressBar1 = new ProgressBar();
             lblElapsed = new Label();
             lblTimeValue = new Label();
+            lblFoundPassword = new Label();
             lblResult = new Label();
-            lblFoundValue = new Label();
             SuspendLayout();
             // 
             // lblPassword
@@ -125,31 +125,31 @@
             lblTimeValue.TabIndex = 8;
             lblTimeValue.Text = "0 seconds";
             // 
+            // lblFoundPassword
+            // 
+            lblFoundPassword.AutoSize = true;
+            lblFoundPassword.Location = new Point(35, 292);
+            lblFoundPassword.Name = "lblFoundPassword";
+            lblFoundPassword.Size = new Size(118, 20);
+            lblFoundPassword.TabIndex = 9;
+            lblFoundPassword.Text = "Found Password:";
+            // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(35, 292);
+            lblResult.Location = new Point(168, 292);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(118, 20);
-            lblResult.TabIndex = 9;
-            lblResult.Text = "Found Password:";
-            // 
-            // lblFoundValue
-            // 
-            lblFoundValue.AutoSize = true;
-            lblFoundValue.Location = new Point(168, 292);
-            lblFoundValue.Name = "lblFoundValue";
-            lblFoundValue.Size = new Size(79, 20);
-            lblFoundValue.TabIndex = 10;
-            lblFoundValue.Text = "Not Found";
+            lblResult.Size = new Size(79, 20);
+            lblResult.TabIndex = 10;
+            lblResult.Text = "Not Found";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(782, 453);
-            Controls.Add(lblFoundValue);
             Controls.Add(lblResult);
+            Controls.Add(lblFoundPassword);
             Controls.Add(lblTimeValue);
             Controls.Add(lblElapsed);
             Controls.Add(progressBar1);
@@ -177,7 +177,7 @@
         private ProgressBar progressBar1;
         private Label lblElapsed;
         private Label lblTimeValue;
+        private Label lblFoundPassword;
         private Label lblResult;
-        private Label lblFoundValue;
     }
 }

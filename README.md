@@ -47,3 +47,9 @@ Create a WinForms application for password reset using brute force attack and mu
 - Added constant salt
 - Implemented PasswordValidator class
 - Password hash generated after password creation
+
+### Version 4 
+
+- Implemented BruteForceGenerator class
+- Separated brute force generation from validation
+- Prepared project for brute force search implementation
