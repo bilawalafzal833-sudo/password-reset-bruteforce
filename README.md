@@ -53,3 +53,28 @@ Create a WinForms application for password reset using brute force attack and mu
 - Implemented BruteForceGenerator class
 - Separated brute force generation from validation
 - Prepared project for brute force search implementation
+
+### Version 5
+
+- Implemented BruteForceEngine
+- Added recursive brute force attack
+- Search starts from length 1
+- Search continues up to length 6
+- Password successfully recovered from SHA256 hash
+- Updated UML diagram
+
+### Version 6 (Final Version)
+
+- Implemented MultiThreadBruteForceEngine
+- Added Task-based multi-threading
+- Used Environment.ProcessorCount - 1 workers
+- Added automatic stopping when password is found
+- Added PerformanceLogger class
+- Added performance comparison between single-thread and multi-thread attacks
+- Added progress bar updates
+- Added elapsed time display
+- Added Start Attack functionality
+- Added Stop Attack functionality
+- Added SHA256 hash display in GUI
+- Added live timer updates during execution
+- Updated UML diagram
